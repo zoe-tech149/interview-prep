@@ -4,7 +4,9 @@ function secondLargest(nums) {
   let secondLargest = -Infinity;
 
   for (const num of nums) {
-
+    if (num > largest) {
+ 
+    }
     
   }
 
