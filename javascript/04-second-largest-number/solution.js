@@ -1,4 +1,3 @@
-function findSecondLargest(nums) {
+function secondLargest(nums) {
   
-  let secondLargest = nums[0];
 }
