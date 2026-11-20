@@ -9,8 +9,9 @@ function secondLargest(nums) {
       largest = num;
     } else if (num < largest && num > secondLargest) {
       secondLargest = num;
-    }
-    
+    }  
   }
-
+  return secondLargest;
 }
+
+console.log(secondLargest([5, 5, 3])); // 3
