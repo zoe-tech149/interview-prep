@@ -5,7 +5,8 @@ function secondLargest(nums) {
 
   for (const num of nums) {
     if (num > largest) {
- 
+      secondLargest = largest;
+      
     }
     
   }
