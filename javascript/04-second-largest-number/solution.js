@@ -8,7 +8,7 @@ function secondLargest(nums) {
       secondLargest = largest;
       largest = num;
     } else if (num < largest && num > secondLargest) {
-
+      secondLargest = num;
     }
     
   }
